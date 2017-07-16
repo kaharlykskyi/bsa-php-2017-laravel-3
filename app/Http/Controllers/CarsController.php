@@ -26,7 +26,9 @@ class CarsController extends Controller
     public function index(): View
     {
         $cars = $this->carsRepository->getAll();
-        return view('cars/index', ['cars' => $cars->toArray()]);
+        return view('cars/index', [
+            'cars' => $cars->toArray()
+        ]);
     }
 
     /**

@@ -2,7 +2,5 @@
 
 namespace App\Exceptions;
 
-class NotFoundException extends Handler
-{
-
-}
+class NotFoundException extends \Exception
+{}

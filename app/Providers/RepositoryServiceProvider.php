@@ -13,7 +13,7 @@ class RepositoryServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function register()
+    public function register(): void
     {
         $this->app->singleton(CarRepositoryInterface::class, CarRepository::class);
     }
