@@ -22,6 +22,7 @@ Route::prefix('cars')->group(function () {
 
     Route::prefix('{id}')->group(function () {
         Route::get('/', 'CarsController@show')->name('cars-show');
+        Route::put('/', 'CarsController@update')->name('cars-update');
         Route::get('/edit', 'CarsController@edit')->name('cars-edit');
         Route::get('/delete', 'CarsController@delete')->name('cars-delete');
     });

@@ -33,7 +33,7 @@
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li class="@yield('create-active')"><a href="{{ URL::route('cars-create') }}">Add</a></li>
-                        <li><a href="{{ URL::route('cars-list') }}">Car list</a></li>
+                        <li><a href="{{ URL::route('cars-list') }}">Cars list</a></li>
                     </ul>
                 </div>
             </div>

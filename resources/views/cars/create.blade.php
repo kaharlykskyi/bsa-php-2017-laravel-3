@@ -22,6 +22,7 @@
                         @endif
                     </div>
                 </div>
+
                 {{-- Color input --}}
                 <div class="form-group {{ $errors->has('color') ? 'has-error' : '' }}">
                     <label for="color" class="col-md-3 control-label">Color</label>
@@ -34,6 +35,7 @@
                         @endif
                     </div>
                 </div>
+
                 {{-- Registration number input --}}
                 <div class="form-group {{ $errors->has('registration_number') ? 'has-error' : '' }}">
                     <label for="registration_number" class="col-md-3 control-label">Registration number</label>
@@ -46,6 +48,7 @@
                         @endif
                     </div>
                 </div>
+
                 {{-- Color input --}}
                 <div class="form-group {{ $errors->has('year') ? 'has-error' : '' }}">
                     <label for="year" class="col-md-3 control-label">Year</label>
@@ -58,6 +61,7 @@
                         @endif
                     </div>
                 </div>
+
                 {{-- Color input --}}
                 <div class="form-group {{ $errors->has('price') ? 'has-error' : '' }}">
                     <label for="price" class="col-md-3 control-label">Price</label>
@@ -70,6 +74,7 @@
                         @endif
                     </div>
                 </div>
+
                 {{-- Submit button --}}
                 <div class="form-group">
                     <div class="col-md-8 col-md-offset-3">
